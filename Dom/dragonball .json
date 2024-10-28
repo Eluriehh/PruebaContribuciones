@@ -1,0 +1,40 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"dragonball"},
+{"type":"table","name":"characters","database":"dragonball","data":
+[
+{"id":"12","user_id":"1","name":"Trunks","race":"Humano","level":"1","strength":"50","speed":"50","endurance":"50","experience":"102","avatar":"Jolyne"},
+{"id":"22","user_id":"2","name":"Piccolo","race":"Majin","level":"1","strength":"50","speed":"50","endurance":"50","experience":"0","avatar":"Dio"}
+]
+}
+,{"type":"table","name":"character_transformations","database":"dragonball","data":
+[
+{"id":"1222","character_id":"22","transformation_id":"222"},
+{"id":"2222","character_id":"12","transformation_id":"122"}
+]
+}
+,{"type":"table","name":"tournaments","database":"dragonball","data":
+[
+{"id":"12222","name":"Animatronix Ultra","date":"2024-10-15","winner_id":"12"},
+{"id":"22222","name":"Pentatronix Mil","date":"2024-10-15","winner_id":"22"}
+]
+}
+,{"type":"table","name":"tournament_participants","database":"dragonball","data":
+[
+{"id":"122222","tournament_id":"12222","character_id":"22"},
+{"id":"222222","tournament_id":"22222","character_id":"12"}
+]
+}
+,{"type":"table","name":"transformations","database":"dragonball","data":
+[
+{"id":"122","name":"Transformacion Intergalactica","level_required":"150"},
+{"id":"222","name":"Transformacion Magnetica","level_required":"110"}
+]
+}
+,{"type":"table","name":"users","database":"dragonball","data":
+[
+{"id":"1","name":"Camila","email":"camila@gmail.com","password":"Camila","avatar":"Jolyne Kujo"},
+{"id":"2","name":"Dominyk","email":"dominyk@gmail.com","password":"Dominyk","avatar":"Dio "}
+]
+}
+]
